@@ -1,0 +1,12 @@
+{
+  "name": "tinyurl-api",
+  "version": "1.0.0",
+  "description": "A TinyURL API hosted on Vercel",
+  "main": "api/shorten.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
